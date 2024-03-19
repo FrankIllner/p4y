@@ -1,1 +1,46 @@
-{"name":"t:sections.footer.name","type":"footer","sections":{"footer":{"type":"footer","settings":{"color_scheme":"scheme-add29c18-e7d6-4908-81ee-32e1c3882372","newsletter_enable":true,"newsletter_heading":"Subscribe to our emails","enable_follow_on_shop":true,"show_social":false,"enable_country_selector":false,"enable_language_selector":false,"payment_enable":true,"show_policy":true,"margin_top":100,"padding_top":36,"padding_bottom":32}}},"order":["footer"]}
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "link_list_kzGKDQ": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
+        },
+        "text_GW8g9R": {
+          "type": "text",
+          "settings": {
+            "heading": "Hilfe\/ Infos",
+            "subtext": "<p><a href=\"\/policies\/contact-information\" target=\"_blank\" title=\"Contact Information\">Kontakt<br\/><\/a><a href=\"\/policies\/legal-notice\" target=\"_blank\" title=\"Legal Notice\">Impressum<br\/><\/a><a href=\"\/policies\/privacy-policy\" target=\"_blank\" title=\"Privacy Policy\">AGB's<br\/><\/a><a href=\"\/policies\/refund-policy\" target=\"_blank\" title=\"Refund Policy\">Rückgaberecht<br\/><\/a><a href=\"\/policies\/terms-of-service\" target=\"_blank\" title=\"Terms of Service\">Versandbedingungen<br\/>Nutzungsbedingungen<br\/><\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "link_list_kzGKDQ",
+        "text_GW8g9R"
+      ],
+      "settings": {
+        "color_scheme": "scheme-add29c18-e7d6-4908-81ee-32e1c3882372",
+        "newsletter_enable": true,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": false,
+        "show_social": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": true,
+        "show_policy": false,
+        "margin_top": 100,
+        "padding_top": 36,
+        "padding_bottom": 32
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

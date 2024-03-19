@@ -8,15 +8,15 @@
         "text_GW8g9R": {
           "type": "text",
           "settings": {
-            "heading": "Hilfe\/ Infos",
-            "subtext": "<p><a href=\"\/policies\/contact-information\" target=\"_blank\" title=\"Contact Information\">Kontakt<br\/><\/a><a href=\"\/policies\/legal-notice\" target=\"_blank\" title=\"Legal Notice\">Impressum<br\/><\/a><a href=\"\/policies\/privacy-policy\" target=\"_blank\" title=\"Privacy Policy\">AGB's<br\/><\/a><a href=\"\/policies\/refund-policy\" target=\"_blank\" title=\"Refund Policy\">Rückgaberecht<br\/><\/a><a href=\"\/policies\/terms-of-service\" target=\"_blank\" title=\"Terms of Service\">Versandbedingungen<br\/>Nutzungsbedingungen<br\/><\/a><\/p>"
+            "heading": "Infos",
+            "subtext": "<p><a href=\"\/policies\/legal-notice\" target=\"_blank\" title=\"Legal Notice\">Impressum<br\/><\/a><a href=\"\/policies\/privacy-policy\" target=\"_blank\" title=\"Privacy Policy\">AGB's<br\/><\/a><a href=\"\/policies\/refund-policy\" target=\"_blank\" title=\"Refund Policy\">Rückgaberecht<br\/><\/a><a href=\"\/policies\/terms-of-service\" target=\"_blank\" title=\"Terms of Service\"><br\/><\/a><\/p>"
           }
         },
         "text_NTRtre": {
           "type": "text",
           "settings": {
-            "heading": "Heading",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            "heading": "Hilfe",
+            "subtext": "<p><a href=\"\/policies\/contact-information\" target=\"_blank\" title=\"Contact Information\">Kontakt<\/a><br\/><a href=\"\/policies\/terms-of-service\" target=\"_blank\" title=\"Terms of Service\">Versandbedingungen<br\/>Nutzungsbedingungen<\/a><\/p>"
           }
         }
       },

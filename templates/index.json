@@ -107,6 +107,59 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_aVAbFH": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_AcaDDG": {
+          "type": "column",
+          "settings": {
+            "title": "Hochwertige Druckqualität und Materialien",
+            "text": "<p>\"Unsere Produkte zeichnen sich durch erstklassige Druckqualität und die Verwendung hochwertiger Materialien aus. Klar definierte und lebendige Drucke auf robusten Stoffen gewährleisten langlebige und attraktive Kleidungsstücke.\"<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_UJ4Wwq": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pPRmxi": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_AcaDDG",
+        "column_UJ4Wwq",
+        "column_pPRmxi"
+      ],
+      "settings": {
+        "title": "das Besondere",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_w9AF4L": {
       "type": "image-with-text",
       "blocks": {
@@ -159,6 +212,7 @@
     "image_banner_F3xcJR",
     "rich_text_FYmtD4",
     "featured_collection",
+    "multicolumn_aVAbFH",
     "image_with_text_w9AF4L"
   ]
 }

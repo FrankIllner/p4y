@@ -127,8 +127,8 @@
         "button_QhMdJe": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Anschauen",
+            "button_link": "shopify:\/\/products\/unisex-pullover",
             "button_style_secondary": false
           }
         }

@@ -64,6 +64,7 @@
             {% if settings.animations_reveal_on_scroll %}
               data-cascade
             {% endif %}
+            {{ block.settings.align }}
           >
             {%- for block in section.blocks -%}
               <div

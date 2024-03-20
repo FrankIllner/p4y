@@ -64,7 +64,6 @@
             {% if settings.animations_reveal_on_scroll %}
               data-cascade
             {% endif %}
-            {{ block.settings.align }}
           >
             {%- for block in section.blocks -%}
               <div
@@ -74,6 +73,7 @@
                   data-cascade
                   style="--animation-order: {{ forloop.index }};"
                 {% endif %}
+                {{ block.settings.align }}
               >
                 {%- if block.settings.heading != blank -%}
                   <h2 class="footer-block__heading inline-richtext">{{- block.settings.heading -}}</h2>

@@ -18,11 +18,20 @@
             "heading": "Hilfe",
             "subtext": "<p><a href=\"\/policies\/contact-information\" target=\"_blank\" title=\"Contact Information\">Kontakt<\/a><br\/><a href=\"\/policies\/contact-information\" title=\"Contact Information\">Support<br\/>Versand<\/a><\/p>"
           }
+        },
+        "image_xdQwV4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/contact-us-iphone.jpg",
+            "image_width": 300,
+            "alignment": "right"
+          }
         }
       },
       "block_order": [
         "text_GW8g9R",
-        "text_NTRtre"
+        "text_NTRtre",
+        "image_xdQwV4"
       ],
       "settings": {
         "color_scheme": "scheme-add29c18-e7d6-4908-81ee-32e1c3882372",

@@ -9,14 +9,16 @@
           "type": "text",
           "settings": {
             "heading": "Infos",
-            "subtext": "<p><a href=\"\/policies\/legal-notice\" target=\"_blank\" title=\"Legal Notice\">Impressum<br\/><\/a><a href=\"\/policies\/terms-of-service\" target=\"_blank\" title=\"Terms of Service\">AGB's<br\/><\/a><a href=\"\/policies\/refund-policy\" target=\"_blank\" title=\"Refund Policy\">Rückgaberecht<br\/><\/a><a href=\"\/policies\/privacy-policy\" target=\"_blank\" title=\"Privacy Policy\">Datenschutzerklärung<br\/><\/a><a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">Versandhnweis<\/a><a href=\"\/policies\/terms-of-service\" target=\"_blank\" title=\"Terms of Service\"><br\/><\/a><\/p>"
+            "subtext": "<p><a href=\"\/policies\/legal-notice\" target=\"_blank\" title=\"Legal Notice\">Impressum<br\/><\/a><a href=\"\/policies\/terms-of-service\" target=\"_blank\" title=\"Terms of Service\">AGB's<br\/><\/a><a href=\"\/policies\/refund-policy\" target=\"_blank\" title=\"Refund Policy\">Rückgaberecht<br\/><\/a><a href=\"\/policies\/privacy-policy\" target=\"_blank\" title=\"Privacy Policy\">Datenschutzerklärung<br\/><\/a><a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">Versandhnweis<\/a><a href=\"\/policies\/terms-of-service\" target=\"_blank\" title=\"Terms of Service\"><br\/><\/a><\/p>",
+            "align": "center"
           }
         },
         "text_NTRtre": {
           "type": "text",
           "settings": {
             "heading": "Hilfe",
-            "subtext": "<p><a href=\"\/policies\/contact-information\" target=\"_blank\" title=\"Contact Information\">Kontakt<\/a><br\/><a href=\"\/policies\/contact-information\" title=\"Contact Information\">Support<br\/>Versand<\/a><\/p>"
+            "subtext": "<p><a href=\"\/policies\/contact-information\" target=\"_blank\" title=\"Contact Information\">Kontakt<\/a><br\/><a href=\"\/policies\/contact-information\" title=\"Contact Information\">Support<br\/>Versand<\/a><\/p>",
+            "align": "right"
           }
         },
         "image_xdQwV4": {

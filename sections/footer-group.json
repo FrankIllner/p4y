@@ -24,7 +24,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/contact-us-iphone.jpg",
             "image_width": 300,
-            "alignment": "center"
+            "alignment": "right"
           }
         }
       },

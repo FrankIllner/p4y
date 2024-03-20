@@ -21,10 +21,10 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Pulli",
-            "button_link_1": "",
+            "button_link_1": "shopify:\/\/collections\/frontpage",
             "button_style_secondary_1": false,
             "button_label_2": "Shirts",
-            "button_link_2": "",
+            "button_link_2": "shopify:\/\/collections\/fruit",
             "button_style_secondary_2": false
           }
         }

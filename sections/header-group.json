@@ -19,6 +19,13 @@
             "link": ""
           }
         },
+        "announcement_CyJzPi": {
+          "type": "announcement",
+          "settings": {
+            "text": "Shoppe jetzt für einen Spritzigen Look!",
+            "link": ""
+          }
+        },
         "announcement_q67jkU": {
           "type": "announcement",
           "settings": {
@@ -30,6 +37,7 @@
       "block_order": [
         "announcement-bar-0",
         "announcement_zGAynb",
+        "announcement_CyJzPi",
         "announcement_q67jkU"
       ],
       "custom_css": [

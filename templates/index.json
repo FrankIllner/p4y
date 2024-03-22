@@ -212,7 +212,7 @@
           "type": "button",
           "settings": {
             "button_label": "Anschauen",
-            "button_link": "shopify:\/\/collections",
+            "button_link": "shopify:\/\/collections\/pulli",
             "button_style_secondary": false
           }
         }

@@ -87,7 +87,7 @@
         "description": "",
         "show_description": true,
         "description_style": "uppercase",
-        "collection": "ausgewahlte-kollektion",
+        "collection": "highlights",
         "products_to_show": 8,
         "columns_desktop": 3,
         "full_width": false,

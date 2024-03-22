@@ -2253,6 +2253,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
 
   .announcement-bar .slider-button {
     height: 3.8rem;
+    display: none;
   }
 }
 

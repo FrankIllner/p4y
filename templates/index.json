@@ -204,15 +204,15 @@
         "text_GxckKm": {
           "type": "text",
           "settings": {
-            "text": "<p>Hier eine Teil unserer neue Fruit Collection.<\/p>",
-            "text_style": "subtitle"
+            "text": "<p>Entdecke unsere Fruchtige Kollektion: Pullover und T-Shirts mit Obst-Motiven!<br\/><br\/>Willkommen in unserer fruchtigen Welt! Von lebendigen Erdbeeren über exotische Ananas bis hin zu erfrischenden Zitronen – unsere Kollektion bringt Frische und Stil zusammen. Hochwertige Materialien und vielseitige Designs machen sie perfekt für jeden Anlass. Hol dir jetzt dein Lieblingsstück und setze ein fruchtiges Statement!<br\/><br\/>Fruchtige Kollektion - für einen spritzigen Look, der alle Blicke auf sich zieht<\/p>",
+            "text_style": "body"
           }
         },
         "button_QhMdJe": {
           "type": "button",
           "settings": {
             "button_label": "Anschauen",
-            "button_link": "shopify:\/\/products\/unisex-pulli-motive-strawberry",
+            "button_link": "shopify:\/\/collections",
             "button_style_secondary": false
           }
         }

@@ -19,17 +19,17 @@
             "link": ""
           }
         },
+        "announcement_q67jkU": {
+          "type": "announcement",
+          "settings": {
+            "text": "Aus ökologischer Produktion!",
+            "link": ""
+          }
+        },
         "announcement_CyJzPi": {
           "type": "announcement",
           "settings": {
             "text": "Shoppe jetzt für einen Spritzigen Look!",
-            "link": ""
-          }
-        },
-        "announcement_q67jkU": {
-          "type": "announcement",
-          "settings": {
-            "text": "Alles aus ökologischer Produktion!",
             "link": ""
           }
         }
@@ -37,8 +37,8 @@
       "block_order": [
         "announcement-bar-0",
         "announcement_zGAynb",
-        "announcement_CyJzPi",
-        "announcement_q67jkU"
+        "announcement_q67jkU",
+        "announcement_CyJzPi"
       ],
       "custom_css": [
 

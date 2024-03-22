@@ -21,6 +21,14 @@
             "align": ""
           }
         },
+        "text_rj7Lfz": {
+          "type": "text",
+          "settings": {
+            "heading": "Top Pulli",
+            "subtext": "<p><a href=\"\/products\/pulli-premium-motive-red-apple\" title=\"Fruit-Pulli Apple red\">Fruit Pulli - Apple Red<\/a><br\/><a href=\"\/products\/premium-sweatshirt-motive-ananas\" title=\"Fruit-Pulli - Ananas\">Fruit Pulli - Ananas Black<br\/>Versand<\/a><\/p>",
+            "align": ""
+          }
+        },
         "image_xdQwV4": {
           "type": "image",
           "settings": {
@@ -33,6 +41,7 @@
       "block_order": [
         "text_GW8g9R",
         "text_NTRtre",
+        "text_rj7Lfz",
         "image_xdQwV4"
       ],
       "settings": {

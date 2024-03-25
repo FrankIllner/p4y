@@ -52,10 +52,10 @@
     "rich_text_FYmtD4": {
       "type": "rich-text",
       "blocks": {
-        "heading_Pzkaxt": {
+        "heading_NaxpPq": {
           "type": "heading",
           "settings": {
-            "heading": "Willkommen bei Pulli4You!",
+            "heading": "Willkommen bei Pulli4you!",
             "heading_size": "h1"
           }
         },
@@ -67,7 +67,7 @@
         }
       },
       "block_order": [
-        "heading_Pzkaxt",
+        "heading_NaxpPq",
         "text_FzL4bL"
       ],
       "settings": {

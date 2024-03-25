@@ -34,7 +34,7 @@
                 {{ block.settings.heading }}
               </h1>
             {% else %}
-              <h3
+              <h2
                 class="rich-text__heading rte inline-richtext {{ block.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                 {{ block.shopify_attributes }}
                 {% if settings.animations_reveal_on_scroll %}
@@ -43,8 +43,8 @@
                 {% endif %}
               >
                 {{ block.settings.heading }}
-              </h3>
-            {% endif %}
+              </h2>
+              {% endif %}
             {%- when 'caption' -%}
               <p
                 class="rich-text__caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"

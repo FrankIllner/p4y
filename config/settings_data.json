@@ -119,6 +119,7 @@
     "show_cart_note": false,
     "cart_drawer_collection": "",
     "cart_color_scheme": "scheme-1",
+    "checkout_logo_image": "shopify:\/\/shop_images\/logop4y_883122cd-80d6-46cb-90f8-8c906d672cde.png",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",

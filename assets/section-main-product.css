@@ -324,7 +324,7 @@ a.product__text {
   margin-top: -1.4rem;
 }
 
-.product__tax .hasMerchantReturnPolicy {
+.product .hasMerchantReturnPolicy {
   margin-top: -15px;
 }
 

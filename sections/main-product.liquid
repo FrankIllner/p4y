@@ -122,17 +122,7 @@
                     {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
                   {%- endif -%}
                 </div>
-                {%- if product.metafields.custom.shippingdetails %}
-                  <div class="shippingdetails">
-                    {{ product.metafields.custom.shippingdetails }}
-                  </div>
-                {%- endif -%}
-
-                {%- if product.metafields.custom.hasmerchantreturnpolicy %}
-                  <div class="hasMerchantReturnPolicy">
-                    <small>{{ product.metafields.custom.hasmerchantreturnpolicy }}</small>
-                  </div>
-                {%- endif -%}
+         
               
                 <div {{ block.shopify_attributes }}>
                   {%- assign product_form_installment_id = 'product-form-installment-' | append: section.id -%}
@@ -202,9 +192,25 @@
                     <button type="button" class="collapsible">Produktbeschreibung</button>
                     <div class="content">
                       {{ product.description }}
-                    </div>                
-              </div>
+                    </div>
+                  </div>
                 {%- endif -%}
+              {%- when 'shipping' -%}
+              <div class="product__shipping rte quick-add-hidden">
+               <div class="content">
+                {%- if product.metafields.custom.shippingdetails %}
+                  <div class="shippingdetails">
+                    {{ product.metafields.custom.shippingdetails }}
+                  </div>
+                {%- endif -%}
+
+                {%- if product.metafields.custom.hasmerchantreturnpolicy %}
+                  <div class="hasMerchantReturnPolicy">
+                    <small>{{ product.metafields.custom.hasmerchantreturnpolicy }}</small>
+                  </div>
+                {%- endif -%}
+                </div>
+              </div>
               {%- when 'sku' -%}
                 <p
                   class="product__sku no-js-hidden{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"

@@ -324,6 +324,10 @@ a.product__text {
   margin-top: -1.4rem;
 }
 
+.product__tax .hasMerchantReturnPolicy {
+  margin-top: -15px;
+}
+
 .product--no-media noscript .product-form__input,
 .product--no-media .share-button {
   max-width: 100%;

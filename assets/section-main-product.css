@@ -1210,7 +1210,7 @@ a.product__text {
 
 /* Style the collapsible content. Note: hidden by default */
 .product__description .content {
-  padding: 0 18px;
+  padding: 15px 18px;
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;

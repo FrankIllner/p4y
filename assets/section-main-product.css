@@ -325,7 +325,11 @@ a.product__text {
 }
 
 .product .hasMerchantReturnPolicy {
-  margin-top: -15px;
+  margin-top: -25px;
+}
+
+.product .hasMerchantReturnPolicy small {
+  font-size: 12px;
 }
 
 .product--no-media noscript .product-form__input,

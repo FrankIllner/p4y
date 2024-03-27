@@ -39,6 +39,12 @@
             "show_gift_card_recipient": true
           }
         },
+        "custom_liquid_BFMHm6": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p>Material: {{ custom.hasmerchantreturnpolicy }}<\/p>"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -58,6 +64,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "custom_liquid_BFMHm6",
         "description",
         "share"
       ],

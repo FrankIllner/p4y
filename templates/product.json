@@ -42,7 +42,7 @@
         "custom_liquid_BFMHm6": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<p>Rückgaberichtlinien: {{ product.metafields.custom.hasmerchantreturnpolicy }}<\/p>"
+            "custom_liquid": "<p>Lieferzeit: {{ custom.shippingdetails }}<\/p>"
           }
         },
         "description": {

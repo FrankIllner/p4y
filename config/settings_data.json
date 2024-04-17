@@ -175,6 +175,12 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "15139700068898395812": {
+        "type": "shopify:\/\/apps\/pwa-mobile-app-ampify\/blocks\/app-embbed\/f3b239f7-3e90-4ab2-8458-5a83727f15a6",
+        "disabled": false,
+        "settings": {
+        }
       }
     },
     "color_schemes": {

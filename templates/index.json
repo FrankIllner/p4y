@@ -38,7 +38,7 @@
         "image": "shopify:\/\/shop_images\/unisex-staple-t-shirt-red-front-661e3351de52b.jpg",
         "image_2": "shopify:\/\/shop_images\/womens-relaxed-t-shirt-heather-mauve-left-front-661e33dfb32ac.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "large",
+        "image_height": "adapt",
         "desktop_content_position": "bottom-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",

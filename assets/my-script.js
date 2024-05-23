@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
         let priceRange = document.querySelector('.product__info-wrapper .price__container .price-range-example');
 
         if (select) {
-            select.value = "";
+           
             select.forEach(function (elem) {
                 elem.addEventListener("change", function (event) {
                     var item = event.target.value;
@@ -14,21 +14,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     if (item === "") {
                         console.log('1');
-                        document.querySelector('.product__info-wrapper .no-js-hidden').classList.remove('hidden');
-                        priceRegular.classList.remove('hidden');
+
+                        priceRange.classList.remove('hidden');
                     
-                        priceRegular.style.display = 'none';
-                        priceSale.style.display = 'none';
                     
                         console.log(priceRange);
                     } else {
                         console.log('2');
                         
-                        priceRegular.classList.add('hidden');
+                        priceRange.classList.add('hidden');
                     
-                        priceRegular.style.display = 'block';
-                        priceSale.style.display = 'block';
-                        console.log(priceRange);
                     }
 
                 });

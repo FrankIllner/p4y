@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
         priceRegular.classList.add('foo');
         priceRange.classList.add('foo2');
         select.forEach(function (elem) {
-            elem.addEventListener("click", function (event) {
+            elem.addEventListener("change", function (event) {
                 var item = event.target.value;
                 console.log("Selected value:", item);
 

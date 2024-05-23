@@ -13,7 +13,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 if (item === "") {
                     console.log('1');
-                    document.querySelector('.product__info-wrapper .no-js-hidden').classList.remove('hidden');
                     priceRange.classList.remove('hidden');
                    
                     priceRegular.style.display = 'none';

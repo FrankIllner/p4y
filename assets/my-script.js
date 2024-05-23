@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     console.log('Show price range');
                     document.querySelector('.product__info-wrapper .no-js-hidden').classList.remove('hidden');
                     priceRange.classList.remove('hidden');
-                    priceRange.style.display = 'block';
+                   
                     priceRegular.style.display = 'none';
                     priceSale.style.display = 'none';
                     priceRange.textContent = 'Neuer Preisbereich';
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     console.log('Show regular/sale prices');
                     
                     priceRange.classList.add('hidden');
-                    priceRange.style.display = 'none';
+                   
                     priceRegular.style.display = 'block';
                     priceSale.style.display = 'block';
                     console.log(priceRange);

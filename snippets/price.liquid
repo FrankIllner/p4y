@@ -153,16 +153,15 @@
 
       select.addEventListener('change', function() {
           console.log('change');
-          console.log(select);
         if (select.value === "") {
             console.log('1');
-          priceRange.style.display = 'block';
+       
           priceRange.classList.remove('hide');
           priceRegular.style.display = 'none';
           priceSale.style.display = 'none';
         } else {
-            console.log(priceRange);
-          priceRange.style.display = 'none';
+            console.log('2');
+         
            priceRange.classList.add('hide');
           priceRegular.style.display = 'block';
           priceSale.style.display = 'block';

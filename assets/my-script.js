@@ -15,15 +15,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     if (item === "") {
                         console.log('1');
 
-                        priceRange.classList.remove('hidden');
                     
-                    
-                        console.log(priceRange);
                     } else {
                         console.log('2');
                         
-                        priceRange.classList.add('hidden');
-                        console.log(priceRange);
+                      
                     }
 
                 });

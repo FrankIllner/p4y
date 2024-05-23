@@ -78,7 +78,6 @@
               name="options[{{ option.name | escape }}]"
               form="{{ product_form_id }}"
             >
-              <option value="" selected disabled>{{ 'products.product.please_select' | t }}</option>
               {% render 'product-variant-options',
                 product: product,
                 option: option,

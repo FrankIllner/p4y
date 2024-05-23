@@ -25,6 +25,10 @@
   assign product_form_id = 'product-form-' | append: section.id
 -%}
 
+{%- if picker_type == 'dropdown' or picker_type == 'swatch_dropdown' -%}
+  <option value="">{{ 'products.product.please_select' | t }}</option> <!-- Hinzugefügte Zeile -->
+{%- endif -%}
+
 {%- for value in option.values -%}
   {%- liquid
     assign option_disabled = true

@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
       let priceRegular = document.querySelectorAll('.product__info-wrapper .price__container .price-item--regular');
       let priceSale = document.querySelectorAll('.product__info-wrapper .price__container .price-item--sale');
       let priceRange = document.querySelectorAll('.product__info-wrapper .price__container .price-range');
- 
+    console.log(priceRange);
       select.forEach(function (elem) {
         elem.addEventListener("click", function (event) {
             var item = event.target.value;

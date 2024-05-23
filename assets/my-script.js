@@ -5,7 +5,8 @@ document.addEventListener("DOMContentLoaded", function () {
         let priceSale = document.querySelector('.price__container .price-item--sale');
         let priceRange = document.querySelector('.price__container .price-range-example');
 
-
+        priceRegular.classList.add('foo');
+        priceRange.classList.add('foo2');
         select.forEach(function (elem) {
             elem.addEventListener("click", function (event) {
                 var item = event.target.value;

@@ -136,7 +136,7 @@
   document.addEventListener('DOMContentLoaded', function() {
     var select = document.querySelector('select[name="{{ option.name }}"]');
     var priceRange = document.getElementById('price-range');
-    select.selectedIndex = 0;
+    console.log (select);
     if (select) {
       // Set "Bitte auswählen" as the default selected option
       select.value = "";

@@ -108,6 +108,7 @@
         class="select__select"
         form="{{ product_form_id }}"
       >
+      <option value="" selected disabled>{{ 'products.product.please_select' | t }}</option>
         {%- for variant in product.variants -%}
           <option
             {% if variant == product.selected_or_first_available_variant %}

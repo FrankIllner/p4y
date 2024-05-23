@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 if (item === "") {
                     console.log('Show price range');
+                    console.log(priceRange);
                     priceRange.classList.remove('hide');
                     priceRange.style.display = 'block';
                     priceRegular.style.display = 'none';

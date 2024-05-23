@@ -148,8 +148,8 @@
 
       // Show price range initially since "Bitte auswählen" is selected by default
       //priceRange.style.display = 'block';
-      //priceRegular.style.display = 'none';
-      //priceRange.style.display = 'none';
+      priceRegular.style.display = 'none';
+      priceSale.style.display = 'none';
 
     
 
@@ -160,12 +160,12 @@
             console.log(select.value);
           priceRange.style.display = 'block';
           priceRegular.style.display = 'none';
-          priceRange.style.display = 'none';
+          priceSale.style.display = 'none';
         } else {
             console.log(select.value);
           priceRange.style.display = 'none';
           priceRegular.style.display = 'block';
-          priceRange.style.display = 'block';
+          priceSale.style.display = 'block';
         }
       });
   });

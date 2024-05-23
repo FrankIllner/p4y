@@ -17,14 +17,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 if (item === "") {
                     console.log('Show price range');
-                    priceRange.classList.remove('hide');
+                    document.querySelector('.product__info-wrapper .price__container .price-range').classList.remove('hide');
                     priceRange.style.display = 'block';
                     priceRegular.style.display = 'none';
                     priceSale.style.display = 'none';
                 } else {
                     console.log('Show regular/sale prices');
                     console.log(priceRange);
-                    priceRange.classList.add('hide');
+                    document.querySelector('.product__info-wrapper .price__container .price-range').classList.add('hide');
                     priceRange.style.display = 'none';
                     priceRegular.style.display = 'block';
                     priceSale.style.display = 'block';

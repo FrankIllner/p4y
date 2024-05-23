@@ -135,8 +135,10 @@
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     var select = document.querySelector('.select__select');
+    var priceRegular = document.querySelector('.price__regular');
+    var priceSale = document.querySelector('.price__sale');
     var priceRange = document.getElementById('price-range');
-    console.log (select);
+
     if (select) {
       // Set "Bitte auswählen" as the default selected option
       select.value = "";
@@ -147,8 +149,12 @@
       select.addEventListener('change', function() {
         if (select.value === "") {
           priceRange.style.display = 'block';
+          priceRegular.style.display = 'none';
+          priceRange.style.display = 'none';
         } else {
           priceRange.style.display = 'none';
+          priceRegular.style.display = 'block';
+          priceRange.style.display = 'block';
         }
       });
     }

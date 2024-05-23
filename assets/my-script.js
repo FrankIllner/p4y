@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     priceRange.style.display = 'block';
                     priceRegular.style.display = 'none';
                     priceSale.style.display = 'none';
+                    priceRange.textContent = 'Neuer Preisbereich';
                     console.log(priceRange);
                 } else {
                     console.log('Show regular/sale prices');

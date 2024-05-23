@@ -78,6 +78,7 @@
               name="options[{{ option.name | escape }}]"
               form="{{ product_form_id }}"
             >
+              <option value="" selected disabled>{{ 'products.product.please_select' | t }}</option>
               {% render 'product-variant-options',
                 product: product,
                 option: option,
@@ -108,7 +109,6 @@
         class="select__select"
         form="{{ product_form_id }}"
       >
-      <option value="" selected disabled>{{ 'products.product.please_select' | t }}</option>
         {%- for variant in product.variants -%}
           <option
             {% if variant == product.selected_or_first_available_variant %}

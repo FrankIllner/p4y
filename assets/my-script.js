@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     if (item === "") {
                         console.log('1');
                         document.querySelector('.product__info-wrapper .no-js-hidden').classList.remove('hidden');
-                        priceRange.classList.remove('hidden');
+                        priceRegular.classList.remove('hidden');
                     
                         priceRegular.style.display = 'none';
                         priceSale.style.display = 'none';
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     } else {
                         console.log('2');
                         
-                        priceRange.classList.add('hidden');
+                        priceRegular.classList.add('hidden');
                     
                         priceRegular.style.display = 'block';
                         priceSale.style.display = 'block';

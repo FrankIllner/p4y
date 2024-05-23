@@ -24,7 +24,8 @@
 
   assign product_form_id = 'product-form-' | append: section.id
 -%}
-
+{{ variants_option1_arr }}
+{{ variants_option2_arr }}
 {%- if picker_type == 'dropdown' or picker_type == 'swatch_dropdown' -%}
   <option selected="selected" value="">{{ 'products.product.please_select' | t }}</option> <!-- Hinzugefügte Zeile -->
 {%- endif -%}

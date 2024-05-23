@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
         let priceRegular = document.querySelector('.product__info-wrapper .price__container .price-item--regular');
         let product_media = document.querySelector('.price__container .price__regular');
         let priceRange = document.querySelector('.product__info-wrapper .price__container .price-range-example');
-        product_media.classList.add('foo');
+        product_media.classList.add('hidden');
         if (select) {
            
             select.forEach(function (elem) {

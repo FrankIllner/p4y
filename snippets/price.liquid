@@ -139,6 +139,9 @@
     var priceSale = document.querySelector('.price .price__container .price-item--sale');
     var priceRange = document.getElementById('price-range');
 
+    console.log(select);
+    console.log(priceRegular);
+
     if (select) {
       // Set "Bitte auswählen" as the default selected option
       select.value = "";
@@ -146,6 +149,7 @@
       // Show price range initially since "Bitte auswählen" is selected by default
       priceRange.style.display = 'block';
 
+      console.log(select.value);
       select.addEventListener('change', function() {
         if (select.value === "") {
           priceRange.style.display = 'block';

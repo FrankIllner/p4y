@@ -6,9 +6,9 @@ document.addEventListener("DOMContentLoaded", function () {
       let priceRange = document.getElementById('price-range');
       select.forEach(function (elem) {
         elem.addEventListener("click", function (event) {
-  
-          console.log(event);
-          console.log(select);
+            var item = event.target.value;
+          console.log(item);
+      
         });
       });
 

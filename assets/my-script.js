@@ -4,23 +4,21 @@ document.addEventListener("DOMContentLoaded", function () {
       let priceRegular = document.querySelector('.price .price__container .price-item--regular');
       let priceSale = document.querySelector('.price .price__container .price-item--sale');
       let priceRange = document.getElementById('price-range');
-      if (select) {
-        select.value = "";
-      }
+ 
       select.forEach(function (elem) {
         elem.addEventListener("click", function (event) {
             var item = event.target.value;
-          console.log(item);
+            console.log(item);
 
-          if (item === "") {
+        if (item === "") {
             console.log('1');
        
-          priceRange.classList.remove('hide');
+          priceRange.style.display = 'block';
           priceRegular.style.display = 'none';
           priceSale.style.display = 'none';
         } else {
             console.log('2');
-            priceRange.classList.add('hide');
+            priceRange.style.display = 'none';
           priceRegular.style.display = 'block';
           priceSale.style.display = 'block';
         }

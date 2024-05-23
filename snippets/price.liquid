@@ -130,3 +130,27 @@
     </span>
   {%- endif -%}
 </div>
+
+<!-- Optionales JavaScript zur Steuerung der Preisanzeige -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var select = document.querySelector('select[name="{{ option.name }}"]');
+    var priceRange = document.getElementById('price-range');
+
+    if (select) {
+      // Set "Bitte auswählen" as the default selected option
+      select.value = "";
+
+      // Show price range initially since "Bitte auswählen" is selected by default
+      priceRange.style.display = 'block';
+
+      select.addEventListener('change', function() {
+        if (select.value === "") {
+          priceRange.style.display = 'block';
+        } else {
+          priceRange.style.display = 'none';
+        }
+      });
+    }
+  });
+</script>

@@ -8,13 +8,24 @@ document.addEventListener("DOMContentLoaded", function () {
         elem.addEventListener("click", function (event) {
             var item = event.target.value;
           console.log(item);
+
+          if (item === "") {
+            console.log('1');
+       
+          priceRange.classList.remove('hide');
+          priceRegular.style.display = 'none';
+          priceSale.style.display = 'none';
+        } else {
+            console.log('2');
+            priceRange.classList.add('hide');
+          priceRegular.style.display = 'block';
+          priceSale.style.display = 'block';
+        }
       
         });
       });
 
-      
-
-
+    
     }
   });
 

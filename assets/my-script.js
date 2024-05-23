@@ -6,10 +6,12 @@ document.addEventListener("DOMContentLoaded", function () {
         select.forEach(function (elem) {
             elem.addEventListener("change", function (event) {
                 var item = event.target.value;
-            
+                
                 if (item === "") {
+                    console.log('1');
                     productWapper.classList.add("is-price-range");
                 } else {
+                    console.log('2');
                     productWapper.classList.remove("is-price-range");
                 }
 

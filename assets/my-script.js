@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 if (item === "") {
                     console.log('Show price range');
                   
-                    priceRange.classList.remove('hide');
+                    priceRange.classList.remove('hidden');
                     priceRange.style.display = 'block';
                     priceRegular.style.display = 'none';
                     priceSale.style.display = 'none';
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 } else {
                     console.log('Show regular/sale prices');
                     
-                    priceRange.classList.add('hide');
+                    priceRange.classList.add('hidden');
                     priceRange.style.display = 'none';
                     priceRegular.style.display = 'block';
                     priceSale.style.display = 'block';

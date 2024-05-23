@@ -157,11 +157,13 @@
         if (select.value === "") {
             console.log('1');
           priceRange.style.display = 'block';
+          priceRange.classList.remove('hide');
           priceRegular.style.display = 'none';
           priceSale.style.display = 'none';
         } else {
             console.log(priceRange);
           priceRange.style.display = 'none';
+           priceRange.classList.add('hide');
           priceRegular.style.display = 'block';
           priceSale.style.display = 'block';
         }

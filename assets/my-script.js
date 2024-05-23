@@ -17,18 +17,20 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 if (item === "") {
                     console.log('Show price range');
-                    console.log(priceRange);
+                  
                     priceRange.classList.remove('hide');
                     priceRange.style.display = 'block';
                     priceRegular.style.display = 'none';
                     priceSale.style.display = 'none';
+                    console.log(priceRange);
                 } else {
                     console.log('Show regular/sale prices');
-                    console.log(priceRange);
+                    
                     priceRange.classList.add('hide');
                     priceRange.style.display = 'none';
                     priceRegular.style.display = 'block';
                     priceSale.style.display = 'block';
+                    console.log(priceRange);
                 }
 
             });

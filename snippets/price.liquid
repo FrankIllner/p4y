@@ -102,7 +102,7 @@
       </span>
     </div>
     <!-- Preisbereich anzeigen -->
-    <div id="price-range" class="test">
+    <div class="price-range">
       {{ price_min | money_with_currency }} - {{ price_max | money_with_currency }}
     </div>
     <small class="unit-price caption{% if product.selected_or_first_available_variant.unit_price_measurement == nil %} hidden{% endif %}">

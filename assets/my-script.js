@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (window.location.href.indexOf("products") > -1) {
         let select = document.querySelectorAll('.select__select');
         let priceRegular = document.querySelector('.price__container .price-item--regular');
-        let priceSale = document.querySelector('.price__container .product__info-wrapper');
+        let priceSale = document.querySelector('.product__info-wrapper');
         let priceRange = document.querySelector('.price__container .price-range-example');
 
         priceRegular.classList.add('foo');

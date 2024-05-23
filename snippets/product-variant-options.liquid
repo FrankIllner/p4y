@@ -7,6 +7,7 @@
   - block: {Object} block object.
   - picker_type: {String} type of picker to dispay
 
+
   Usage:
   {% render 'product-variant-options',
     product: product,
@@ -22,12 +23,10 @@
   assign variants_option3_arr = product.variants | map: 'option3'
 
   assign product_form_id = 'product-form-' | append: section.id
-  assign min_price = product.variants | map: 'price' | sort | first
-  assign max_price = product.variants | map: 'price' | sort | last
 -%}
 
 {%- if picker_type == 'dropdown' or picker_type == 'swatch_dropdown' -%}
-  <option value="">{{ 'Bitte auswählen' }}</option> <!-- Hinzugefügte Zeile -->
+  <option value="">{{ 'products.product.please_select' | t }}</option> <!-- Hinzugefügte Zeile -->
 {%- endif -%}
 
 {%- for value in option.values -%}
@@ -123,26 +122,3 @@
     </option>
   {%- endif -%}
 {%- endfor -%}
-
-<!-- Preisbereich anzeigen -->
-<div id="price-range" style="display: none;">
-  {{ min_price | money }} - {{ max_price | money }}
-</div>
-{{ min_price | money }}
-<!-- Optionales JavaScript zur Steuerung der Preisanzeige -->
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    var select = document.querySelector('select[name="{{ option.name }}"]');
-    var priceRange = document.getElementById('price-range');
-
-    if (select) {
-      select.addEventListener('change', function() {
-        if (select.value === "") {
-          priceRange.style.display = 'block';
-        } else {
-          priceRange.style.display = 'none';
-        }
-      });
-    }
-  });
-</script>

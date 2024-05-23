@@ -77,8 +77,8 @@
   display: none;
 }
 
-.product__info-wrapper.is-price-range .price__container .price__regular{
-  display: none;
+.product__info-wrapper.is-price-range .price__container .price-range-exampler{
+  display: block;
 }
 
 .no-js:not(html) {

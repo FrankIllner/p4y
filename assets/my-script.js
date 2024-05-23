@@ -3,12 +3,8 @@ document.addEventListener("DOMContentLoaded", function () {
         let select = document.querySelectorAll('.select__select');
         let priceRegular = document.querySelector('.product__info-wrapper .price__container .price-item--regular');
         let priceSale = document.querySelector('.product__info-wrapper .price__container .price-item--sale');
-        let priceRange = document.querySelector('.product__info-wrapper .price__container .price-range');
+        let priceRange = document.querySelector('.product__info-wrapper .price__container .price-range-example"');
 
-        if (!priceRange) {
-            console.error("Price range element not found!");
-            return;
-        }
 
         select.forEach(function (elem) {
             elem.addEventListener("click", function (event) {

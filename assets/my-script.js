@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
                    
                     priceRegular.style.display = 'none';
                     priceSale.style.display = 'none';
-                    priceRange.textContent = 'Neuer Preisbereich';
+                
                     console.log(priceRange);
                 } else {
                     console.log('Show regular/sale prices');

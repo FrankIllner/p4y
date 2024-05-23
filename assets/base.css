@@ -73,6 +73,10 @@
 
 /* base */
 
+.product__info-wrapper .price__container .price-range-example {
+  display: none;
+}
+
 .product__info-wrapper.is-price-range .price__container .price__regular{
   display: none;
 }

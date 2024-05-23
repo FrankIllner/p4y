@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     priceSale.style.display = 'none';
                 } else {
                     console.log('Show regular/sale prices');
+                    console.log(priceRange);
                     priceRange.classList.add('hide');
                     priceRange.style.display = 'none';
                     priceRegular.style.display = 'block';

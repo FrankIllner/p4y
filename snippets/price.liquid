@@ -149,13 +149,16 @@
       // Show price range initially since "Bitte auswählen" is selected by default
       priceRange.style.display = 'block';
 
-      console.log(select.value);
+    
       select.addEventListener('change', function() {
+          console.log('change');
         if (select.value === "") {
+            console.log(select.value);
           priceRange.style.display = 'block';
           priceRegular.style.display = 'none';
           priceRange.style.display = 'none';
         } else {
+            console.log(select.value);
           priceRange.style.display = 'none';
           priceRegular.style.display = 'block';
           priceRange.style.display = 'block';

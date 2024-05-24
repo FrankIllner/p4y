@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
         let select = document.querySelectorAll('.select__select');
         let productWapper = document.querySelector('.product__info-wrapper');
         let showPriceContainer = document.querySelector('.show-price-range');
-        let productButton = document.querySelector('.show-price-range .product-form__submit');
+        let productButton = document.querySelector('.product-form .product-form__submit');
 
         console.log(productButton);
         productWapper.classList.add("is-price-range");

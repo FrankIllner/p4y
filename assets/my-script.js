@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
         let showPriceContainer = document.querySelector('.show-price-range');
         let productButton = document.querySelector('.show-price-range .product-form__submit');
 
-        console.log(showPriceContainer);
+        console.log(productButton);
         productWapper.classList.add("is-price-range");
         showPriceContainer.classList.remove("hidden");
         productButton.setAttribute('disabled', 'disabled');

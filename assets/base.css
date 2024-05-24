@@ -81,6 +81,14 @@
   display: block;
 }
 
+.product__info-wrapper .price__container .price-item  {
+  display: block;
+}
+
+.product__info-wrapper.is-price-range .price__container .price-item  {
+  display: none;
+}
+
 .no-js:not(html) {
   display: none !important;
 }

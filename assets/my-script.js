@@ -2,8 +2,11 @@ document.addEventListener("DOMContentLoaded", function () {
     if (window.location.href.indexOf("products") > -1) {
         let select = document.querySelectorAll('.select__select');
         let productWapper = document.querySelector('.product__info-wrapper');
-        let showPriceContainer = document.querySelector('.product .show-price-range');
-        productWapper.classList.add("is-price-range");
+        let showPriceContainer = document.querySelector('.is-price-range .show-price-range');
+
+        console.log(showPriceContainer);
+       
+        showPriceContainer.classList.remove("hidden");
         select.forEach(function (elem) {
             elem.addEventListener("change", function (event) {
                 var item = event.target.value;

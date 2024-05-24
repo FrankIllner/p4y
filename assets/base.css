@@ -88,8 +88,13 @@
 .product__info-wrapper.is-price-range .price__container .price-item  {
   display: none;
 }
+.product__info-wrapper.is-price-range .show-price-range .badge {
+  display: none;
+}
 
-
+.product-card-wrapper .price__container .price-range-example {
+  display: none;
+}
 
 .no-js:not(html) {
   display: none !important;

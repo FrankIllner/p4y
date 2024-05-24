@@ -1,13 +1,13 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function (e) {
     if (window.location.href.indexOf("products") > -1) {
         let select = document.querySelectorAll('.select__select');
         let productWapper = document.querySelector('.product__info-wrapper');
         let showPriceContainer = document.querySelector('.show-price-range');
         let productButton = document.querySelector('.product-form .product-form__submit');
 
-        console.log(productButton);
+        console.log(e);
         productWapper.classList.add("is-price-range");
-        showPriceContainer.classList.remove("hidden");
+        document.querySelector('.show-price-range').classList.remove("hidden");
         productButton.setAttribute('disabled', 'disabled');
         select.forEach(function (elem) {
             elem.addEventListener("change", function (event) {

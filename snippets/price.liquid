@@ -37,6 +37,8 @@
   endif
 -%}
 
+{{product.quantity_price_breaks_configured?}}
+
 <div
   class="
     price
@@ -63,15 +65,10 @@
             </span>
             <span>
               <s class="price-item price-item--regular variant-item__old-price">
-
-                {% if money_price_min == money_price_max %}
-                  {% if settings.currency_code_enabled %}
-                    {{ compare_at_price | money_with_currency }}
-                  {% else %}
-                    {{ compare_at_price | money }}
-                  {% endif %}
+                {% if settings.currency_code_enabled %}
+                  {{ compare_at_price | money_with_currency }}
                 {% else %}
-                  {{ money_price_min | money }} - {{ money_price_max | money }}
+                  {{ compare_at_price | money }}
                 {% endif %}
               </s>
             </span>
@@ -79,12 +76,12 @@
         {%- endif -%}
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
         <span class="price-item price-item--regular">
-          {{- 'products.product.volume_pricing.price_range' | t: minimum: money_price_min, maximum: money_price_max -}}
+         c {{- 'products.product.volume_pricing.price_range' | t: minimum: money_price_min, maximum: money_price_max -}}
         </span>
       {%- else -%}
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
         <span class="price-item price-item--regular">
-          {{ money_price }}
+         b {{ money_price }}
         </span>
       {%- endif -%}
     </div>

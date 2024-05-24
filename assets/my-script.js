@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
         let select = document.querySelectorAll('.select__select');
         let productWapper = document.querySelector('.product__info-wrapper');
         let showPriceContainer = document.querySelector('.show-price-range');
+        let productButton = document.querySelector('.show-price-range .product-form__submit');
 
         console.log(showPriceContainer);
         productWapper.classList.add("is-price-range");
@@ -15,6 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 if (item === "") {
                     console.log('1');
                     productWapper.classList.add("is-price-range");
+                    productButton.setAttribute('disabled', 'disabled');
                 } else {
                     console.log('2');
                     productWapper.classList.remove("is-price-range");

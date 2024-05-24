@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (window.location.href.indexOf("products") > -1) {
         let select = document.querySelectorAll('.select__select');
         let productWapper = document.querySelector('.product__info-wrapper');
-        let showPriceContainer = document.querySelector('.is-price-range .show-price-range');
+        let showPriceContainer = document.querySelector('.show-price-range');
 
         console.log(showPriceContainer);
         productWapper.classList.add("is-price-range");

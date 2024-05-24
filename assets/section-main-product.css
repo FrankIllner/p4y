@@ -1532,3 +1532,27 @@ a.product__text {
     border: none;
   }
 }
+/* Aufgabe Variabtenauswahl ohne Vorselektierung */
+.product__info-wrapper .price__container .price-range-example {
+  display: none;
+}
+
+.product__info-wrapper.is-price-range .price__container .price-range-example {
+  display: block;
+}
+
+.product__info-wrapper .price__container .price-item  {
+  display: block;
+}
+
+.product__info-wrapper.is-price-range .price__container .price-item  {
+  display: none;
+}
+
+.product__info-wrapper.is-price-range .show-price-range .badge {
+  display: none;
+}
+
+.product-card-wrapper .price__container .price-range-example {
+  display: none;
+}

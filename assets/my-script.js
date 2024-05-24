@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
         let showPriceContainer = document.querySelector('.is-price-range .show-price-range');
 
         console.log(showPriceContainer);
-       
+        productWapper.classList.add("is-price-range");
         showPriceContainer.classList.remove("hidden");
         select.forEach(function (elem) {
             elem.addEventListener("change", function (event) {

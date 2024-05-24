@@ -1222,7 +1222,7 @@ class VariantSelects extends HTMLElement {
 
     if (!addButton) return;
     addButtonText.textContent = window.variantStrings.unavailable;
-    if (price) price.classList.add('hidden');
+ //   if (price) price.classList.add('hidden');
     if (inventory) inventory.classList.add('hidden');
     if (sku) sku.classList.add('hidden');
     if (pricePerItem) pricePerItem.classList.add('hidden');

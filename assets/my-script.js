@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
         console.log(showPriceContainer);
         productWapper.classList.add("is-price-range");
         showPriceContainer.classList.remove("hidden");
+        productButton.setAttribute('disabled', 'disabled');
         select.forEach(function (elem) {
             elem.addEventListener("change", function (event) {
                 var item = event.target.value;
@@ -16,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 if (item === "") {
                     console.log('1');
                     productWapper.classList.add("is-price-range");
-                    productButton.setAttribute('disabled', 'disabled');
+                  
                 } else {
                     console.log('2');
                     productWapper.classList.remove("is-price-range");

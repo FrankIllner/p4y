@@ -1553,6 +1553,7 @@ a.product__text {
   display: none;
 }
 
-.product-card-wrapper .price__container .price-range-example {
+.product-card-wrapper .price__container .price-range-example,
+.card-information .price__container .price-range-example {
   display: none;
 }

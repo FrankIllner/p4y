@@ -105,9 +105,7 @@
     <div class="price-range-example">
       {% if price_min == price_max %}
         {{ price | money_with_currency }}
-        <b>1</b>
       {% else %}
-      <b>2</b>
         {{ price_min | money_with_currency }} - {{ price_max | money_with_currency }}
       {% endif %}
     </div>

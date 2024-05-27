@@ -99,3 +99,7 @@
   text-transform: uppercase;
   color: rgba(var(--color-foreground), 0.7);
 }
+
+.card-information .price__container .price-range-example {
+  display: none;
+}

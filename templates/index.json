@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "image_banner_F3xcJR": {
@@ -35,8 +44,8 @@
         "buttons_aqEGKi"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/unisex-staple-t-shirt-red-front-661e3351de52b.jpg",
-        "image_2": "shopify:\/\/shop_images\/womens-relaxed-t-shirt-heather-mauve-left-front-661e33dfb32ac.jpg",
+        "image": "shopify:\/\/shop_images\/front-basic-unisex-hoodie-e5cfa2-1116x_291ce22d-8411-4b4d-9a08-b53e8bc1f08f.png",
+        "image_2": "shopify:\/\/shop_images\/front-mens-organic-v-neck-shirt-0e2035-1116x.png",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "bottom-center",

@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner_F3xcJR": {
@@ -30,10 +30,10 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Pulli",
-            "button_link_1": "shopify:\/\/collections\/pulli",
+            "button_link_1": "shopify://collections/pulli",
             "button_style_secondary_1": false,
             "button_label_2": "Shirts",
-            "button_link_2": "shopify:\/\/collections\/shirt",
+            "button_link_2": "shopify://collections/shirt",
             "button_style_secondary_2": false
           }
         }
@@ -44,8 +44,8 @@
         "buttons_aqEGKi"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/youth-staple-tee-navy-front-661e343320c49.jpg",
-        "image_2": "shopify:\/\/shop_images\/unisex-staple-t-shirt-yellow-front-661e3351f00ce.jpg",
+        "image": "shopify://shop_images/front-premium-sweatshirt-ed1a38-1116x_21544055-32a7-46af-9fec-093a09eac7cc.webp",
+        "image_2": "shopify://shop_images/front-organic-relaxed-shirt-fcf0dc-1116x.png",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
@@ -71,7 +71,7 @@
         "text_FzL4bL": {
           "type": "text",
           "settings": {
-            "text": "<h3>Wir sind stolz darauf, hochwertige Pullover und Shirts anzubieten, die nicht nur bequem sind, sondern auch deinen individuellen Stil unterstreichen.<\/h3><h3>Unsere Spezialität? Einzigartige Produkte mit fruchtigem Flair! Unser Sortiment umfasst eine breite Auswahl an Kleidungsstücken mit fruchtigen Aufdrucken, die garantiert Aufmerksamkeit erregen.<\/h3>"
+            "text": "<h3>Wir sind stolz darauf, hochwertige Pullover und Shirts anzubieten, die nicht nur bequem sind, sondern auch deinen individuellen Stil unterstreichen.</h3><h3>Unsere Spezialität? Einzigartige Produkte mit fruchtigem Flair! Unser Sortiment umfasst eine breite Auswahl an Kleidungsstücken mit fruchtigen Aufdrucken, die garantiert Aufmerksamkeit erregen.</h3>"
           }
         }
       },
@@ -122,9 +122,9 @@
         "column_AcaDDG": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/unisex-staple-t-shirt-white-front-65ec0322bca8e.jpg",
+            "image": "shopify://shop_images/unisex-staple-t-shirt-white-front-65ec0322bca8e.jpg",
             "title": "Hochwertige Druckqualität und Materialien",
-            "text": "<p>\"Unsere Produkte zeichnen sich durch erstklassige Druckqualität und die Verwendung hochwertiger Materialien aus. Klar definierte und lebendige Drucke auf robusten Stoffen gewährleisten langlebige und attraktive Kleidungsstücke.\"<\/p>",
+            "text": "<p>\"Unsere Produkte zeichnen sich durch erstklassige Druckqualität und die Verwendung hochwertiger Materialien aus. Klar definierte und lebendige Drucke auf robusten Stoffen gewährleisten langlebige und attraktive Kleidungsstücke.\"</p>",
             "link_label": "",
             "link": ""
           }
@@ -132,9 +132,9 @@
         "column_UJ4Wwq": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/unisex-staple-t-shirt-black-heather-front-65ec03c4d5956.jpg",
+            "image": "shopify://shop_images/unisex-staple-t-shirt-black-heather-front-65ec03c4d5956.jpg",
             "title": "Nachhaltigkeit im Fokus",
-            "text": "<p>\"Wir setzen uns für Umweltfreundlichkeit ein und legen Wert darauf, dass unsere Produkte umweltbewusst hergestellt werden. Dazu gehören die Verwendung von umweltfreundlichen Tinten sowie die Auswahl an Bio- und recycelten Materialien für unsere Kleidungsstücke. Unsere Kunden können sicher sein, dass wir ihre Werte teilen und stilvolle, umweltfreundliche Produkte anbieten.\"<\/p>",
+            "text": "<p>\"Wir setzen uns für Umweltfreundlichkeit ein und legen Wert darauf, dass unsere Produkte umweltbewusst hergestellt werden. Dazu gehören die Verwendung von umweltfreundlichen Tinten sowie die Auswahl an Bio- und recycelten Materialien für unsere Kleidungsstücke. Unsere Kunden können sicher sein, dass wir ihre Werte teilen und stilvolle, umweltfreundliche Produkte anbieten.\"</p>",
             "link_label": "",
             "link": ""
           }
@@ -142,9 +142,9 @@
         "column_pPRmxi": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/front-organic-sweatshirt-272727-1116x.png",
+            "image": "shopify://shop_images/front-organic-sweatshirt-272727-1116x.png",
             "title": "Wir machen Trends",
-            "text": "<p>\"Wir bieten regelmäßig neue Designs und Kollektionen an, die aktuellen Modetrends entsprechen oder saisonale Themen aufgreifen. Mit unserer ständigen Anpassungsfähigkeit halten wir das Interesse unserer Kunden hoch und bieten stets frische Inspirationen in unserem Shop.\"<\/p>",
+            "text": "<p>\"Wir bieten regelmäßig neue Designs und Kollektionen an, die aktuellen Modetrends entsprechen oder saisonale Themen aufgreifen. Mit unserer ständigen Anpassungsfähigkeit halten wir das Interesse unserer Kunden hoch und bieten stets frische Inspirationen in unserem Shop.\"</p>",
             "link_label": "",
             "link": ""
           }
@@ -203,7 +203,7 @@
     "featured_collection_jGqVr4": {
       "type": "featured-collection",
       "settings": {
-        "title": "<strong>NEU<\/strong>  EM-Collection",
+        "title": "<strong>NEU</strong>  EM-Collection",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -241,7 +241,7 @@
         "text_GxckKm": {
           "type": "text",
           "settings": {
-            "text": "<p>Entdecke unsere Fruchtige Kollektion: Pullover und T-Shirts mit Obst-Motiven!<br\/><br\/>Willkommen in unserer fruchtigen Welt! Von lebendigen Erdbeeren über exotische Ananas bis hin zu erfrischenden Zitronen – unsere Kollektion bringt Frische und Stil zusammen. Hochwertige Materialien und vielseitige Designs machen sie perfekt für jeden Anlass. Hol dir jetzt dein Lieblingsstück und setze ein fruchtiges Statement!<br\/><br\/>Fruchtige Kollektion - für einen spritzigen Look, der alle Blicke auf sich zieht<\/p>",
+            "text": "<p>Entdecke unsere Fruchtige Kollektion: Pullover und T-Shirts mit Obst-Motiven!<br/><br/>Willkommen in unserer fruchtigen Welt! Von lebendigen Erdbeeren über exotische Ananas bis hin zu erfrischenden Zitronen – unsere Kollektion bringt Frische und Stil zusammen. Hochwertige Materialien und vielseitige Designs machen sie perfekt für jeden Anlass. Hol dir jetzt dein Lieblingsstück und setze ein fruchtiges Statement!<br/><br/>Fruchtige Kollektion - für einen spritzigen Look, der alle Blicke auf sich zieht</p>",
             "text_style": "body"
           }
         },
@@ -249,7 +249,7 @@
           "type": "button",
           "settings": {
             "button_label": "Anschauen",
-            "button_link": "shopify:\/\/collections\/shirt",
+            "button_link": "shopify://collections/shirt",
             "button_style_secondary": false
           }
         }
@@ -260,7 +260,7 @@
         "button_QhMdJe"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/unisex-staple-t-shirt-gold-front-661e3351ea2e7.jpg",
+        "image": "shopify://shop_images/unisex-staple-t-shirt-gold-front-661e3351ea2e7.jpg",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",

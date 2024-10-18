@@ -175,12 +175,12 @@
     "featured_collection_AaVpgj": {
       "type": "featured-collection",
       "settings": {
-        "title": "Unsere Highlights",
+        "title": "Unsere Fruit Pullis",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "highlights",
+        "collection": "pulli",
         "products_to_show": 5,
         "columns_desktop": 5,
         "full_width": false,

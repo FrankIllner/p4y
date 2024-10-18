@@ -175,12 +175,12 @@
     "featured_collection_AaVpgj": {
       "type": "featured-collection",
       "settings": {
-        "title": "T-Shirts für Mädchen",
+        "title": "NEU im Angebot",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "ladies-shirts",
+        "collection": "kollektion-neu",
         "products_to_show": 5,
         "columns_desktop": 5,
         "full_width": false,

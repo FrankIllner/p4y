@@ -47,7 +47,7 @@
         "image": "shopify://shop_images/front-premium-sweatshirt-ed1a38-1116x_21544055-32a7-46af-9fec-093a09eac7cc.webp",
         "image_2": "shopify://shop_images/front-organic-relaxed-shirt-fcf0dc-1116x.png",
         "image_overlay_opacity": 0,
-        "image_height": "large",
+        "image_height": "small",
         "desktop_content_position": "bottom-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
